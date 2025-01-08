@@ -122,3 +122,86 @@
 .margin-right {
   margin-right: 20px;
 }
+
+.center-text {
+  text-align: center;
+}
+
+/* About section */
+
+.section-main {
+  margin-bottom: 50px;
+}
+
+.about {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #e2d3c8;
+  margin-top: 50px;
+  padding: 80px;
+
+  border-radius: 11px;
+}
+
+.about-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.about-description {
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.about-items {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.item-title {
+  color: #474747;
+}
+
+.item-description {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Skills section */
+
+.skills-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 60px;
+}
+
+.skills {
+  background-color: white;
+  padding: 20px 30px 60px 30px;
+  margin-right: 20px;
+  border-radius: 11px;
+  box-shadow: 3px 3px 10px black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-title {
+  margin: 10px 0 20px 0;
+}
+
+.skill-description {
+  font-size: 14px;
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
+}
