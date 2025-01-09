@@ -185,12 +185,20 @@
   padding: 20px 30px 60px 30px;
   margin-right: 20px;
   border-radius: 11px;
-  box-shadow: 3px 3px 10px black;
+  /* box-shadow: 1px 1px 1px rgb(255, 249, 249); */
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.skills:hover,
+.skills:active {
+  transform: translateY(-8px);
 }
 
 .skill-title {
@@ -241,4 +249,83 @@
 .resume-container {
   display: flex;
   gap: 36px;
+}
+
+.footer {
+  max-width: 100%;
+  background-color: #e2d3c8;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 60px 100px;
+}
+
+.footer-content {
+  /* background-color: green; */
+
+  width: 50%;
+  padding: 20px 40px;
+}
+
+.footer-content-heading {
+  font-size: 32px;
+  color: #474747;
+
+  margin-bottom: 20px;
+}
+
+.footer-content-description {
+  font-size: 18px;
+  color: #757575;
+
+  margin-bottom: 18px;
+}
+
+.social-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon a {
+  color: #fd6e0a;
+  font-size: 24px;
+}
+
+.footer-form {
+  /* background-color: red; */
+  width: 50%;
+
+  padding: 30px 90px;
+}
+
+.footer-form-heading {
+  margin-bottom: 20px;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"] {
+  display: block;
+
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 11px;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  border: none;
+  border-radius: 11px;
+  width: 100%;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-btn {
+  margin: 10px 0;
+  display: block;
 }
