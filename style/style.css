@@ -353,3 +353,16 @@ body {
   font-size: 12px;
   padding: 10px 20px;
 }
+
+/* Responsive design */
+
+/* For small device 576px */
+
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 100%;
+  }
+}
